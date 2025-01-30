@@ -34,16 +34,16 @@ no shutdown
 ```
 assigning ports to VLANs:
 ```bat
-interface range fa0/1-5
+interface range fa0/2-7
   switchport mode access
   switchport access vlan 10
-interface range fa0/6-10
+interface range fa0/8-13
   switchport mode access
   switchport access vlan 20
-interface range fa0/11-15
+interface range fa0/14-19
   switchport mode access
   switchport access vlan 30
-interface fa0/24
+interface fa0/20-24
   switchport mode access
   switchport access vlan 100
 ```
