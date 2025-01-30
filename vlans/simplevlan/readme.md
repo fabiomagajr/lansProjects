@@ -4,6 +4,8 @@ The sectors were designated into 4 VLANs, namely: Financial, HR, Production and 
 
 Note that no sector has access to anything else, except the administration sector, which is responsible for managing the network and, therefore, must have full access to all stations.
 
+The only ethernet port not configured is Ethernet0/1, which was reserved in case a Trunk is needed.
+
 The commands used in the Switch CLI are described right below.
 
 Creating VLANs:
