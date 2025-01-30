@@ -15,9 +15,9 @@ vlan 10
 vlan 20
   name RH
 vlan 30
-  name TI
+  name Producao
 vlan 100
-  name Servidor
+  name Admin
 exit
 ```
 Configuring VLANs:
